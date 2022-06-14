@@ -1,0 +1,194 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+.phoneboook {
+  width: 400px;
+position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  background-color: aqua;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.phonebookTitle {
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 30px;
+    margin-top: 0;
+
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.contactsTitle {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+
+}
+
+.phonebookForm {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.phonebookLabel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.phonebookInput {
+  margin-top: 3px;
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+.phonebookInput:hover,
+.phonebookInput:focus {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+
+.phonebookButton {
+    margin-top: 15px;
+    cursor: pointer;
+    background: transparent;
+    width: 150px;
+    padding: 1em;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5000px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgb(0 0 0 / 20%);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 20%);
+}
+
+.phonebookButton:hover,
+.phonebookButton:focus {
+    background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+
+.findContactLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
+.findContactInput {
+    margin-top: 10px;
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+.findContactInput:hover,
+.findContactInput:focus {
+    background: rgba(255,255,255,0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactList__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contactList__text {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.contactList__button {
+  cursor: pointer;
+  margin-left: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 14px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
