@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState } from 'react';
 import s from './Contact.module.css';
 
@@ -65,4 +66,9 @@ const Form = ({ onSubmit }) => {
     </form>
   );
 };
+
+Form.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};
+
 export default Form;
